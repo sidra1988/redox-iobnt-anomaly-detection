@@ -1,0 +1,37 @@
+model,resampling,mean,std
+1D-CNN,None,0.6901,0.0458
+1D-CNN,SMOTE on raw sequences,0.7536,0.0291
+1D-CNN,Window oversampling,0.7222,0.0281
+CNN,None,0.744,0.0223
+CNN,SMOTE on raw sequences,0.7727,0.0173
+CNN,Window oversampling,0.7574,0.0196
+CNN+GRU,None,0.8176,0.0518
+CNN+GRU,SMOTE on raw sequences,0.8264,0.0344
+CNN+GRU,Window oversampling,0.8174,0.0305
+CNN+LSTM,None,0.7592,0.0288
+CNN+LSTM,SMOTE on raw sequences,0.7573,0.089
+CNN+LSTM,Window oversampling,0.7815,0.0848
+CUSUM,None,0.561,0.0143
+CUSUM,SMOTE on raw sequences,0.561,0.0143
+CUSUM,Window oversampling,0.561,0.0143
+EWMA,None,0.5202,0.0117
+EWMA,SMOTE on raw sequences,0.5202,0.0117
+EWMA,Window oversampling,0.5202,0.0117
+GRU,None,0.5899,0.053
+GRU,SMOTE on raw sequences,0.5942,0.0899
+GRU,Window oversampling,0.6288,0.0558
+IsolationForest,None,0.5816,0.02
+IsolationForest,SMOTE on raw sequences,0.5816,0.02
+IsolationForest,Window oversampling,0.5816,0.02
+LSTM,None,0.5121,0.0186
+LSTM,SMOTE on raw sequences,0.5254,0.0152
+LSTM,Window oversampling,0.5376,0.0299
+NaiveThreshold,None,0.5069,0.01
+NaiveThreshold,SMOTE on raw sequences,0.5069,0.01
+NaiveThreshold,Window oversampling,0.5069,0.01
+OneClassSVM,None,0.6724,0.0222
+OneClassSVM,SMOTE on raw sequences,0.6724,0.0222
+OneClassSVM,Window oversampling,0.6724,0.0222
+RandomForest,None,0.7591,0.025
+RandomForest,SMOTE on raw sequences,0.7542,0.0226
+RandomForest,Window oversampling,0.7542,0.0226
